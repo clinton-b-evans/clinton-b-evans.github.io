@@ -1,0 +1,72 @@
+body { 
+  background-color: #080c84;
+}
+@font-face {
+  font-family: 'ibm';
+  src: url('https://api.allorigins.win/raw?url=https://int10h.org/oldschool-pc-fonts/fontlist/woff/web_ibm_vga_8x16.woff'); 
+}
+header {
+  display: flex;
+  margin-top: 10px;
+  color: #FFF;
+  padding: 10px;
+  border: 1px rgb(255, 242, 0) solid;
+  animation: flicker 10s infinite;
+  
+}
+
+span {
+  font-size: 26px;
+  font-family: ibm;
+  font-smooth: never;
+}
+.header-copyright {
+  color: #69cd85;
+  flex: 1;
+  text-align: left;
+}
+.header-page-title {
+  color: #60dafe
+  flex: 1;
+  text-align: center;
+}
+.header-date {
+  flex: 1;
+  text-align: right;
+  animation: flicker 10s infinite;
+}
+
+a {
+  color: white;
+}
+
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0.9;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0.7;
+  }
+  40% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 0.7003;
+  }
+  100% {
+    opacity: 0.24387;
+  }
+}
