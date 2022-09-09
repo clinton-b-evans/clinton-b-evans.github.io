@@ -70,7 +70,7 @@ header {
   text-align: left;
 }
 .header-page-title {
-  color: #60dafe
+  color: #60dafe;
   flex: 1;
   text-align: center;
 }
