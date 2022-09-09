@@ -5,13 +5,13 @@ html {
 
 body {
   height: 100%;
-  background-image: url("../img/bg.png");
   padding: 0;
-  filter: grayscale(10%);
   margin: 0;
   font-size: 26px;
   font-family: ibm;
   font-smooth: never;
+  background-image: url("../img/bg.png");
+  
 }
 * {
   box-sizing: inherit;
@@ -37,7 +37,6 @@ section {
   color: #FFF;
   padding: 10px;
   border: 1px rgb(255, 242, 0) solid;
-  animation: flicker 10s infinite;
 }
 
 .page-footer {
@@ -47,11 +46,12 @@ section {
   padding: 10px;
 }
 
-
 .page-body {
   padding: 20px;
 }
 span {
+  animation: flicker 10s infinite;
+
   font-size: 26px;
   font-family: ibm;
   font-smooth: never;
@@ -72,19 +72,39 @@ span {
   animation: flicker 10s infinite;
 }
 
-a {
-  color: white;
-}
-
-.main {
-  margin: 100px auto;
+.make-selection {
+  margin: 100px auto 0 auto;
   width: 50%;
   border: 6px #fff double;
-  
+  background-color: #1016b9;
+  color: #FFF;
+  padding: 24px;
+}
+.make-sub-selection {
+  margin-top: -100px;
+  margin: 0 auto;
+  width: 50%;
+  border: 6px #fff double;
+  color: #FFF;
+  background-color: #1016b9;
+  padding: 24px;
+}
+.exit-joke{
+  color: #a62e16;
+}
+a {
+  color: white;
+  width:100%;
+  text-decoration: none;
+}
+a:hover {
+  background-color: grey;
+  width:100%;
+}
+li:hover {
+  background-color: grey;
 }
 
-
-  
 @keyframes flicker {
   0% {
     opacity: 1;
