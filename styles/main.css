@@ -1,6 +1,9 @@
 html {
   height: 100%;
   box-sizing: border-box;
+  background-color: black;
+  animation: flicker 30s infinite;
+
 }
 
 body {
@@ -49,9 +52,8 @@ section {
 .page-body {
   padding: 20px;
 }
-span {
-  animation: flicker 10s infinite;
 
+header {
   font-size: 26px;
   font-family: ibm;
   font-smooth: never;
@@ -89,7 +91,7 @@ span {
   background-color: #1016b9;
   padding: 24px;
 }
-.exit-joke{
+.exit-joke, .access-key-letter{
   color: #a62e16;
 }
 a {
@@ -116,7 +118,7 @@ li:hover {
     opacity: 1;
   }
   35% {
-    opacity: 0.7;
+    opacity: 1;
   }
   40% {
     opacity: 1;
@@ -125,12 +127,12 @@ li:hover {
     opacity: 1;
   }
   60% {
-    opacity: 0.5;
+    opacity: 1;
   }
   90% {
-    opacity: 0.7003;
+    opacity: 0.85;
   }
   100% {
-    opacity: 0.24387;
+    opacity: 0.94387;
   }
 }
