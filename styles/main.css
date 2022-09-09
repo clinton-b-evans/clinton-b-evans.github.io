@@ -1,11 +1,11 @@
+/* This adds subtle animation for effect*/
 html {
   height: 100%;
   box-sizing: border-box;
-  background-color: black;
   animation: flicker 30s infinite;
 
 }
-
+/* This is the body plus background image*/
 body {
   height: 100%;
   padding: 0;
@@ -48,6 +48,12 @@ section {
   color: #1016ba;
   padding: 10px;
 }
+.page-footer-shareware {
+  margin-top: 10px;
+  background-color: #aa0100;
+  color: #FFF;
+  padding: 10px;
+}
 
 .page-body {
   padding: 20px;
@@ -74,9 +80,20 @@ header {
   animation: flicker 10s infinite;
 }
 
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+ul li:before
+{
+  content: '\2';
+  margin: 0 0.5em;    /* any design */
+}
+/* This is the mainmenu on page with white double border*/
 .make-selection {
-  margin: 100px auto 0 auto;
-  width: 50%;
+  margin: 50px auto 0 auto;
+  width: 62%;
   border: 6px #fff double;
   background-color: #1016b9;
   color: #FFF;
@@ -85,7 +102,7 @@ header {
 .make-sub-selection {
   margin-top: -100px;
   margin: 0 auto;
-  width: 50%;
+  width: 62%;
   border: 6px #fff double;
   color: #FFF;
   background-color: #1016b9;
@@ -94,6 +111,10 @@ header {
 .exit-joke, .access-key-letter{
   color: #a62e16;
 }
+.shareware-notice {
+  color: yellow;
+}
+
 a {
   color: white;
   width:100%;
