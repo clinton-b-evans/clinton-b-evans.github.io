@@ -132,6 +132,35 @@ li:hover {
   background-color: grey;
 }
 
+@media(max-width: 500px) {
+  body {
+    font-size: 16px;
+    background-color: lightgreen;
+  }
+
+  header {
+    font-size: 16px;
+    font-family: ibm;
+    font-smooth: never;
+  }
+  .make-selection {
+    margin: 50px auto 0 auto;
+    width: 80%;
+    border: 6px #fff double;
+    background-color: #1016b9;
+    color: #FFF;
+    padding: 24px;
+  }
+  .make-sub-selection {
+    margin-top: -100px;
+    margin: 0 auto;
+    width: 80%;
+    border: 6px #fff double;
+    color: #FFF;
+    background-color: #1016b9;
+    padding: 24px;
+  }
+}
 @keyframes flicker {
   0% {
     opacity: 1;
