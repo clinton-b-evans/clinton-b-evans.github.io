@@ -71,7 +71,7 @@ header {
 }
 .header-page-title {
   color: #60dafe;
-  flex: 1;
+  flex: 3;
   text-align: center;
 }
 .header-date {
@@ -87,7 +87,7 @@ ul {
 
 ul li:before
 {
-  content: '\2';
+  content: '☺';
   margin: 0 0.5em;    /* any design */
 }
 /* This is the mainmenu on page with white double border*/
