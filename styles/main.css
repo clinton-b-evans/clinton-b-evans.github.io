@@ -65,7 +65,7 @@ header {
   font-smooth: never;
 }
 .header-copyright {
-  color: #69cd85;
+  color: #5fe886;
   flex: 1;
   text-align: left;
 }
@@ -112,7 +112,7 @@ ul li:before
   color: #a62e16;
 }
 .shareware-notice {
-  color: yellow;
+  color: #faf170;
 }
 
 #yellowp {
@@ -120,7 +120,7 @@ ul li:before
 }
 
 a {
-  color: white;
+  color: #fff;
   width:100%;
   text-decoration: none;
 }
@@ -130,6 +130,15 @@ a:hover {
 }
 li:hover {
   background-color: grey;
+}
+
+.question-heading {
+  text-transform: uppercase;
+  color: #faf170;
+}
+/* Changing size for different devices */
+#blinking-cursor {
+  animation: cursor-flicker 1s infinite;
 }
 
 @media(max-width: 500px) {
@@ -188,5 +197,20 @@ li:hover {
   }
   100% {
     opacity: 0.94387;
+  }
+}
+
+@keyframes cursor-flicker {
+  0% { 
+    opacity: 0;
+  }
+  50% { 
+    opacity: 0;
+  }
+  51% { 
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
   }
 }
