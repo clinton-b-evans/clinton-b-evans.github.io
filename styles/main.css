@@ -59,6 +59,30 @@ section {
   padding: 20px;
 }
 
+.green{
+  color: #00FF00
+  ;
+}
+.cyan {
+  color: cyan;
+}
+
+.brightred {
+  color: red;
+}
+
+.purple {
+  color: hotpink
+}
+
+.red {
+  color: red;
+}
+.flashing-orange {
+  color: orange;
+  animation: cursor-flicker 1s infinite;
+}
+
 header {
   font-size: 26px;
   font-family: ibm;
@@ -93,7 +117,7 @@ ul li:before
 /* This is the mainmenu on page with white double border*/
 .make-selection {
   margin: 50px auto 0 auto;
-  width: 62%;
+  width: 80%;
   border: 6px #fff double;
   background-color: #1016b9;
   color: #FFF;
@@ -102,7 +126,7 @@ ul li:before
 .make-sub-selection {
   margin-top: -100px;
   margin: 0 auto;
-  width: 62%;
+  width: 80%;
   border: 6px #fff double;
   color: #FFF;
   background-color: #1016b9;
